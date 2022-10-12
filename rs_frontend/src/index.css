@@ -1,0 +1,30 @@
+/* @import '~bootstrap/dist/css/bootstrap.css'; */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.primary-nav {
+  /* background-color: aliceblue; */
+  background-color: rgb(177, 181, 185);
+  padding: 16px 32px;
+}
+
+nav a {
+  margin-right: 16px;
+}
+
+/* nav a.active {
+  text-decoration: none;
+  font-weight: bold;
+} */

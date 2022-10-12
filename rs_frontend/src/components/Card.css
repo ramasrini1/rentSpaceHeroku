@@ -1,0 +1,19 @@
+.card1 {
+  align-items: center;
+  justify-content: center;
+}
+
+.card_image2{
+  align-items: center;
+  height: 250px;
+  width: 500px;
+  object-fit: cover;
+  justify-content: center;
+}
+
+.imgDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

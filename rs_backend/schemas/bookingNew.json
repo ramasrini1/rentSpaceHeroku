@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://our.company.com/propertyNew.schema.json",
+  "type": "object",
+  "properties": {
+    "property_id": {
+      "type": "integer"
+    },
+    "date": {
+      "type": "string" 
+    },
+    "start_time": {
+      "type": "string"
+    },
+      "end_time": {
+      "type": "string"
+    },
+    "renter_id": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "payment": {
+      "type": "integer"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "property_id",
+    "date",
+    "start_time",
+    "end_time",
+    "renter_id"
+  ]
+}
